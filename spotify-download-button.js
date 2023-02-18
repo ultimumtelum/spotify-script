@@ -1,0 +1,15 @@
+// ==UserScript==
+// @name         Hide Spotify Web-App Download Button
+// @namespace    https://example.com/
+// @version      1
+// @description  Hides a specific div element on the Spotify web app
+// @author       MOS
+// @match        https://open.spotify.com/*
+// @grant        GM_addStyle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    GM_addStyle('.eNs6P3JYpf2LScgTDHc6 { display: none !important; }');
+})();
